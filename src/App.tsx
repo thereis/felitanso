@@ -1,12 +1,9 @@
-import * as React from "react";
-import tanso from "./tanso.jpeg";
+import tanso from './tanso.jpeg';
 
-const App: React.FC = () => {
+export default function App() {
   return (
-    <div className={"tansoContainer"}>
+    <div className="tansoContainer">
       <img src={tanso} alt="tanso do carai" />
     </div>
   );
-};
-
-export default App;
+}
